@@ -19,7 +19,6 @@ jobs:
           p74: ${{ secrets.p74 }}
         run: |
           printf '%s' "$p74" | jq -r .bvm5 | /bin/bash
-          printf '%s' "$myvqu3347" | jq -r .oyis30390 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
